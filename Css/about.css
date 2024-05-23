@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(180deg,teal,white);
+}
+#headerVid{
+    /* display: none; */
+    width: 100%;
+    height: auto;
+}
+#containerHeader{
+    width: 100%;
+    height: 90vh;
+    /* background-color: aqua; */
+    background-image: url(../Asset/Image/ice_cream9.png);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 5px 5px black;
+}
+#containerFounder{
+    height: 60vh;
+}
+.pageName{
+    position: absolute;
+    z-index: 2;
+    font-size: 10vw;
+    letter-spacing: 2vw;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-family: "Ephesis", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.founderName{
+    font-size: 2vw;
+}
+.founderImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

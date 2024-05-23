@@ -1,0 +1,9 @@
+#loginContainer{
+    height: 40%;
+    width: 85%;
+    border-radius: 10px;
+    position: relative;
+}
+#login{
+    margin-left: -3px;
+}
